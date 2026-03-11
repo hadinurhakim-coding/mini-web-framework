@@ -1,0 +1,49 @@
+# Cursor
+.cursor/
+
+# Go
+/bin/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.html
+coverage.txt
+*.coverprofile
+go.work
+go.work.sum
+
+# IDE / Editor
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Env and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Build and temp
+/dist/
+/tmp/
+/temp/
+*.log
+
+# Debug
+__debug_bin
+debug.test
